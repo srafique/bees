@@ -1,101 +1,71 @@
-import Image from "next/image";
+import { Container } from "@/components/Container";
+import { Hero } from "@/components/Hero";
+import { SectionTitle } from "@/components/SectionTitle";
+
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <Container>
+      <Hero />
+      <SectionTitle
+        preTitle="Professional Bee & Wasp Removal Services"
+        title=" Why Choose Us?"
+      >
+        ✅ Safe & Humane Removal – We protect both you and the bees. 
+        ✅ Experienced Professionals – Our team knows how to handle any bee situation. 
+        ✅ Eco-Friendly Solutions – No harmful chemicals, only responsible relocation. 
+        ✅ Fast & Reliable Service – Same-day or emergency services available. 
+        ✅ Affordable & Transparent Pricing – No hidden fees, just fair rates.
+      </SectionTitle>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      <SectionTitle
+        preTitle="From Swarm Removal to Hive Relocation"
+        title=" Our Services:"
+      >
+        🐝 Bee Swarm Removal – Quick, safe, and stress-free. 
+        🏡 Hive Relocation – We move entire hives without harm. 🔧 Structural Bee Removal – Bees in walls, attics, or roofs? We handle it. 
+        🌱 Bee Prevention & Consultation – Keep your property bee-free in the future.
+      </SectionTitle>
+
+      <SectionTitle
+        preTitle="Don’t Wait – Get Expert Help Now!"
+        title=" Got Bees? Call Us Today!"
+      >
+        Don’t let a small bee problem become a big headache. 
+        Contact our professional bee removal team for immediate assistance and enjoy peace of mind.
+      </SectionTitle>
+
+      {/* <Benefits data={benefitOne} />
+      <Benefits imgPos="right" data={benefitTwo} />
+
+      <SectionTitle
+        preTitle="Watch a video"
+        title="Learn how to fullfil your needs"
+      >
+        This section is to highlight a promo or demo video of your product.
+        Analysts says a landing page with video has 3% more conversion rate. So,
+        don&apos;t forget to add one. Just like this.
+      </SectionTitle>
+
+      <Video videoId="fZ0D0cnR88E" />
+
+      <SectionTitle
+        preTitle="Testimonials"
+        title="Here's what our customers said"
+      >
+        Testimonials is a great way to increase the brand trust and awareness.
+        Use this section to highlight your popular customers.
+      </SectionTitle>
+
+      <Testimonials />
+
+      <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
+        Answer your customers possible questions here, it will increase the
+        conversion rate as well as support or chat requests.
+      </SectionTitle>
+
+      <Faq />
+      <Cta /> */}
+    </Container>
   );
 }
