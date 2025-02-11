@@ -13,7 +13,6 @@ export const Hero = () => {
               height="617"
               className={"object-cover"}
               alt="Hero Illustration"
-              loading="eager"
             />
 
             {/* <ImageSlider /> */}
