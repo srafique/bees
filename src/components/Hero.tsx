@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { Container } from "@/components/Container";
-import heroImg from "../../public/beesMain.png";
 
 export const Hero = () => {
   return (
@@ -9,13 +8,12 @@ export const Hero = () => {
         <div className="flex items-start justify-center w-full lg:w-1/2">
           <div className="">
             <Image
-              src={heroImg}
+              src="/beesMain.png"
               width="616"
               height="617"
               className={"object-cover"}
               alt="Hero Illustration"
               loading="eager"
-              placeholder="blur"
             />
 
             {/* <ImageSlider /> */}
