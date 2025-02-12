@@ -2,6 +2,9 @@ import Image from "next/image";
 import { Container } from "@/components/Container";
 
 export const Hero = () => {
+  // const loaderProp = ({ src }: { src: string }): string => {
+  //     return src;
+  // };
   return (
     <>
       <Container className="flex flex-wrap ">
@@ -13,7 +16,7 @@ export const Hero = () => {
               height="617"
               className={"object-cover"}
               alt="Hero Illustration"
-              unoptimized
+              overrideSrc="/beesMain.png"
             />
 
             {/* <ImageSlider /> */}
