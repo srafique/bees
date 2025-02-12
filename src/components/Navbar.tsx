@@ -18,6 +18,7 @@ export const Navbar = () => {
                   alt="N"
                   height="32"
                   className="w-8"
+                  unoptimized
                 />
               </span>
             <span>Bee Craft Handyman Service</span>
