@@ -11,12 +11,12 @@ export const Hero = () => {
         <div className="flex items-start justify-center w-full lg:w-1/2">
           <div className="">
             <Image
-              src="/beesMain.png"
+              src="/beesmain.png"
               width="616"
               height="617"
               className={"object-cover"}
               alt="Hero Illustration"
-              overrideSrc="/beesMain.png"
+              overrideSrc="/beesmain.png"
             />
 
             {/* <ImageSlider /> */}
