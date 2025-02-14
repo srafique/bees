@@ -1,7 +1,7 @@
 "use client";
-import Image from "next/image";
+//import Image from "next/image";
 import { Container } from "@/components/Container";
-import mainImage from '../../public/bees.png';
+//import mainImage from '../../public/bees.png';
 
 export const Hero = () => {
   // const imageLoader = ({ src, width, quality }: { src: string; width: number; quality?: number }): string => {
@@ -15,8 +15,8 @@ export const Hero = () => {
       <Container className="flex flex-wrap ">
         <div className="flex items-start justify-center w-full lg:w-1/2">
           <div className="">
-            <Image
-              src={mainImage}
+            <img
+              src="/bees.png"
               width="616"
               height="617"
               className={"object-cover"}
