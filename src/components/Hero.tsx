@@ -3,20 +3,20 @@ import Image from "next/image";
 import { Container } from "@/components/Container";
 
 export const Hero = () => {
-  const imageLoader = ({ src, width, quality }: { src: string; width: number; quality?: number }): string => {
-    return `${window.location.origin}/${src}?w=${width}&q=${quality || 75}`;
-  };
+  // const imageLoader = ({ src, width, quality }: { src: string; width: number; quality?: number }): string => {
+  //   return `${window.location.origin}/${src}?w=${width}&q=${quality || 75}`;
+  // };
   // const loaderProp = ({ src }: { src: string }): string => {
   //     return src;
   // };
-  return (
+  const heroImage = `${window.location.origin}/beesmain.png`;
+    return (
     <>
       <Container className="flex flex-wrap ">
         <div className="flex items-start justify-center w-full lg:w-1/2">
           <div className="">
             <Image
-              loader={imageLoader}
-              src="beesmain.png"
+              src={heroImage}
               width="616"
               height="617"
               className={"object-cover"}
