@@ -11,8 +11,8 @@ export default function Home() {
         preTitle="Professional Bee & Wasp Removal Services"
         title=" Why Choose Us?"
       >
-        ✅ Safe & Humane Removal – We protect both you and the bees. 
-        ✅ Experienced Professionals – Our team knows how to handle any bee situation. 
+        ✅ Safe & Humane Removal – We protect both you and the bees & wasps. 
+        ✅ Experienced Professionals – Our team knows how to handle any bee or wasp situation. 
         ✅ Eco-Friendly Solutions – No harmful chemicals, only responsible relocation. 
         ✅ Fast & Reliable Service – Same-day or emergency services available. 
         ✅ Affordable & Transparent Pricing – No hidden fees, just fair rates.
@@ -22,17 +22,17 @@ export default function Home() {
         preTitle="From Swarm Removal to Hive Relocation"
         title=" Our Services:"
       >
-        🐝 Bee Swarm Removal – Quick, safe, and stress-free. 
-        🏡 Hive Relocation – We move entire hives without harm. 🔧 Structural Bee Removal – Bees in walls, attics, or roofs? We handle it. 
-        🌱 Bee Prevention & Consultation – Keep your property bee-free in the future.
+        🐝 Bee and Wasp Swarm Removal – Quick, safe, and stress-free. 
+        🏡 Hive Relocation – We move entire hives without harm. 🔧 Structural Bee and Wasp Removal – Bees or wasp in walls, attics, or roofs? We handle it. 
+        🌱 Bee or Wasp Prevention & Consultation – Keep your property bee & wasp-free in the future.
       </SectionTitle>
 
       <SectionTitle
         preTitle="Don’t Wait – Get Expert Help Now!"
-        title=" Got Bees? Call Us Today!"
+        title=" Got Bees or Wasps? Call Us Today!"
       >
-        Don’t let a small bee problem become a big headache. 
-        Contact our professional bee removal team for immediate assistance and enjoy peace of mind.
+        Don’t let a small bee or wasp problem become a big headache. 
+        Contact our professional bee and wasp removal team for immediate assistance and enjoy peace of mind.
       </SectionTitle>
 
       {/* <Benefits data={benefitOne} />
