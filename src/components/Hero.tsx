@@ -8,21 +8,24 @@ export const Hero = () => {
     return (
     <>
       <Container className="flex flex-wrap ">
-        <div className="flex items-start justify-center w-full lg:w-1/2">
+        <div className="flex items-start justify-center w-full lg:w-[40%]">
           <div className="">
           <Carousel showArrows={true}
             showIndicators={true}
             infiniteLoop={true}
             dynamicHeight={false}
             autoPlay={true}
-            interval={2000}>
+            interval={2000}
+            showThumbs={false}
+            >
             <div>
               <Image
                   src="/main/bees.png"
-                  width="616"
+                  width="500"
                   alt="Hero Illustration"
-                  height="617"
+                  height="500"
                   className={"object-cover"}
+                  priority
                 />
             </div>
             <div>

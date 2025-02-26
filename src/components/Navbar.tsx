@@ -2,6 +2,7 @@
 import Link from "next/link";
 import ThemeChanger from "./DarkSwitch";
 import Image from "next/image"
+import SocialMediaButton from "./SocaiMediaButton";
 
 export const Navbar = () => {
 
@@ -14,11 +15,10 @@ export const Navbar = () => {
               <span>
                 <Image
                   src="/beelogo.svg"
-                  width="32"
+                  width={32}
                   alt="N"
-                  height="32"
-                  className="w-8"
-                  unoptimized
+                  height={32}
+                  className="h-auto"
                 />
               </span>
             <span>Bee Craft Handyman Service</span>
@@ -26,13 +26,15 @@ export const Navbar = () => {
         </Link>
         <div className="mb-3 d-md-none"></div>
         {/* get started  */}
-        <div className="flex justify-between gap-3 nav__item mr-2 ml-0 sm:ml-auto lg:ml-0 lg:order-2">
+        <div className="flex justify-center items-center gap-3 nav__item mr-2 ml-0 sm:ml-auto lg:ml-0 lg:order-2">
             <ThemeChanger />
+            <SocialMediaButton type="yelp" size={36} color="#C1272D"/>
             <div className="mr-3 nav__item">
               <Link href="tel:+19515947694" className="px-6 py-2 text-white bg-red-600 rounded-md md:ml-5">
               (951) 594-7694
               </Link>
             </div>
+            
         </div>
       </nav>
     </div>

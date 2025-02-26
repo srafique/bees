@@ -20,9 +20,9 @@ export function Footer() {
                 <Image
                   src="/beelogo.svg"
                   alt="N"
-                  width="32"
-                  height="32"
-                  className="w-8"
+                  width={32}
+                  height={32}
+                  className="h-auto"
                 />
                 <span>Bee Craft Handyman Service</span>
               </Link>
