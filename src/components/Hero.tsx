@@ -61,6 +61,15 @@ export const Hero = () => {
             <div>
               <Image src="/main/12.png" width="616" alt="Hero Illustration" height="617" className={"object-cover"}/>
             </div>
+            <div>
+              <Image src="/main/13.png" width="616" alt="Hero Illustration" height="617" className={"object-cover"}/>
+            </div>
+            <div>
+              <Image src="/main/14.png" width="616" alt="Hero Illustration" height="617" className={"object-cover"}/>
+            </div>
+            <div>
+              <Image src="/main/15.png" width="616" alt="Hero Illustration" height="617" className={"object-cover"}/>
+            </div>
           </Carousel>
             
           </div>
