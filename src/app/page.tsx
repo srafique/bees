@@ -1,4 +1,5 @@
 import { Container } from "@/components/Container";
+import { Faq } from "@/components/Faq";
 import { Hero } from "@/components/Hero";
 import { SectionTitle } from "@/components/SectionTitle";
 
@@ -58,14 +59,16 @@ export default function Home() {
       </SectionTitle>
 
       <Testimonials />
-
+*/}
       <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
         Answer your customers possible questions here, it will increase the
         conversion rate as well as support or chat requests.
       </SectionTitle>
 
       <Faq />
-      <Cta /> */}
+      {/* <Cta />  */}
+      
     </Container>
+    
   );
 }
